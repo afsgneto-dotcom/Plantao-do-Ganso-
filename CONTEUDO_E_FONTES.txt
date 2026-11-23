@@ -1,0 +1,13 @@
+PLANTÃO DO GANSO — EDIÇÃO 5.0
+
+Novas questões: 439 (questões rápidas, casos avançados e interativas).
+Total no banco: 1003 (inclui as 16 questões adicionais do app.js).
+Flashcards: 240 perguntas reformuladas em estilo conceitual, com IDs preservados para não perder o histórico de espaçamento.
+
+FONTES BASE:
+- Apostila Urgências e Emergências, 75 p., elaborada a partir dos slides de aula
+- Apostila Urgências e Emergências — 7 Temas, 14 p.
+- Cinco provas antigas enviadas pelo usuário para o formato de questões e apresentação de casos
+- GINA Summary Guide 2026, GOLD Pocket Guide 2027, Surviving Sepsis Campaign 2026, American Burn Association 2024
+
+As situações clínicas adicionais são fictícias e autorais, não reproduzem casos de pacientes. Os valores de fórmula clássica e recomendações atuais são distinguidos nos enunciados.

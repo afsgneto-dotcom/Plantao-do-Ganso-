@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f4f8f8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Plantão do Ganso">
+  <meta name="description" content="1003 questões de Urgência e Emergência: decorar, casos clínicos, simulados e revisão de erros.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <link rel="stylesheet" href="app.css?v=20261123.8">
+  <title>Plantão do Ganso — Zoada 5.1</title>
+</head>
+<body>
+  <div class="page-wrap">
+    <header class="site-header">
+      <div class="header-inner">
+        <button class="brand" data-action="goto" data-view="home" aria-label="Ir para início">
+          <img src="assets/icon-192.png" alt="" class="brand-avatar">
+          <span class="brand-label"><b>Plantão do Ganso</b><small>Urgência & Emergência</small></span>
+        </button>
+        <nav aria-label="Navegação principal" class="desktop-nav">
+          <button data-action="goto" data-view="home" data-nav="home">Início</button>
+          <button data-action="goto" data-view="flashcards" data-nav="flashcards">Flashcards</button>
+          <button data-action="goto" data-view="review" data-nav="review">Revisão</button>
+          <button data-action="goto" data-view="plan" data-nav="plan">Plano</button>
+          <button data-action="goto" data-view="stats" data-nav="stats">Progresso</button>
+          <button data-action="goto" data-view="settings" data-nav="settings">Ajustes</button>
+        </nav>
+        <button class="icon-btn theme-toggle" id="theme-toggle" data-action="theme" title="Alternar modo claro/escuro" aria-label="Alternar modo claro ou escuro">☾</button>
+      </div>
+    </header>
+    <main id="app" aria-live="polite"></main>
+    <footer class="site-footer"><span>Plantão do Ganso · Zoada 5.1 · novembro/2026</span><span>Material de revisão — não substitui protocolos assistenciais.</span></footer>
+    <nav class="mobile-nav" aria-label="Menu do celular">
+      <button data-action="goto" data-view="home" data-nav="home"><span class="nav-icon">⌂</span><span>Início</span></button>
+      <button data-action="goto" data-view="flashcards" data-nav="flashcards"><span class="nav-icon">🗂</span><span>Cards</span></button>
+      <button data-action="goto" data-view="review" data-nav="review"><span class="nav-icon">🧠</span><span>Revisão</span></button>
+      <button data-action="goto" data-view="plan" data-nav="plan"><span class="nav-icon">🗓</span><span>Plano</span></button>
+      <button data-action="goto" data-view="stats" data-nav="stats"><span class="nav-icon">▤</span><span>Progresso</span></button>
+      <button data-action="goto" data-view="settings" data-nav="settings"><span class="nav-icon">⚙</span><span>Ajustes</span></button>
+    </nav>
+  </div>
+  <noscript><p style="padding:30px">Este simulado precisa de JavaScript. Abra o site no Safari, Chrome ou outro navegador, em vez da pré-visualização do arquivo HTML.</p></noscript>
+  <script src="questions.js?v=20261123.8"></script>
+  <script src="enhancements.js?v=20261123.8"></script>
+  <script src="content_v5.js?v=20261123.8"></script>
+  <script src="app.js?v=20261123.8"></script>
+</body>
+</html>

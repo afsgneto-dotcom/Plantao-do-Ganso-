@@ -1,0 +1,37 @@
+PLANTÃO DO GANSO — ZOADA 5.0
+Site estático para Netlify • novembro/2026
+
+PUBLICAÇÃO / ATUALIZAÇÃO
+1. Antes de atualizar, use Ajustes > Exportar meu progresso na versão atual.
+2. Em https://app.netlify.com, entre no mesmo projeto publicado anteriormente.
+3. Em Deploys, envie o arquivo Plantao_do_Ganso_Zoada_5_0_Netlify.zip.
+4. O index.html está NA RAIZ do ZIP, como o Netlify espera.
+5. Abra o mesmo endereço Netlify. Se aparecer a versão anterior, recarregue o Safari.
+
+PROGRESSO / BACKUP
+- As chaves de armazenamento e os IDs das questões antigas foram preservados.
+- A versão 5.0 reutiliza a migração automática v2/v3/v4 presente na versão 4.0.
+- O progresso é local ao navegador e endereço de domínio; não sincroniza entre aparelhos.
+- Faça backups periódicos e antes de trocar de navegador ou apagar dados do Safari.
+
+CONTEÚDO
+- 1.003 questões no total: 564 anteriores + 439 novas.
+- 303 novas objetivas de memorização (variação de formas de cobrança).
+- 96 novos casos clínicos inéditos e mais complexos (12 por tema).
+- 40 novas atividades de associação, ordenação e preenchimento.
+- 240 flashcards por tópicos, integralmente reescritos com perguntas conceituais.
+- 8 assuntos: asma, DPOC, sepse, queimaduras, politraumatismo, TCE,
+  trauma torácico e trauma abdominal.
+- 50 questões por sessão, com seleção embaralhada dentro do tema em
+  'Intercalada' e em 'Aleatória'. Uma nova sessão evita começar pela
+  mesma questão que a sessão anterior equivalente.
+- Casos clínicos não se repetem na mesma sessão.
+- Mantidos: modos Decorar, Casos Clínicos e Prova, Zoada, progresso e revisões.
+
+FONTES
+- Apostilas e resumos de Urgências e Emergências enviados anteriormente.
+- Cinco provas enviadas, usadas como inspiração de estilo e nível de raciocínio.
+- Diretrizes GINA 2026, GOLD 2027, SSC 2026, ABA e ATLS. Conferir protocolos
+  locais e recomendações atualizadas para aplicação assistencial.
+
+Zoada 5.1: adicionado o quadro de crédito na tela inicial, abaixo da apresentação: Idealizado por Antonio Fernando de Souza Guerra Neto. Banco de questões e dados salvos mantidos.
