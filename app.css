@@ -172,3 +172,28 @@ body[data-view="quiz"] #app{padding-bottom:180px}
 .creator-credit span{color:var(--muted);font-weight:650}
 .creator-credit strong{font-weight:800;letter-spacing:-.01em}
 @media(max-width:500px){.creator-credit{font-size:12px;padding:12px 14px;margin-top:12px}}
+
+/* Zoada 6.0 — revisão clínica e sessões infinitas */
+.mode-cards{grid-template-columns:repeat(4,minmax(0,1fr))}
+.mode-card{min-height:165px}
+.review-topic-list{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 18px}
+.mind-tree{display:grid;grid-template-columns:minmax(0,1fr) 3fr;gap:15px;align-items:center}
+.mind-center{background:linear-gradient(130deg,#0a6175,#128d8e);border-radius:18px;padding:16px;text-align:center;color:#fff;font-weight:800;box-shadow:var(--shadow)}
+.clinical-panel h2{font-size:clamp(23px,3vw,31px);margin:4px 0 12px}
+.clinical-section{border-top:1px solid var(--line);padding-top:21px;margin-top:22px}
+.clinical-section h3{font-size:18px;margin:0 0 12px;color:var(--text)}
+.clinical-list{margin:0;padding-left:23px;display:grid;gap:10px;line-height:1.62}
+.clinical-list li::marker{color:var(--teal)}
+.clinical-table-scroll{width:100%;overflow-x:auto;border:1px solid var(--line);border-radius:13px;margin:12px 0 0;overscroll-behavior-x:contain}
+.clinical-table{border-collapse:collapse;width:100%;min-width:480px;font-size:13px;line-height:1.55}
+.clinical-table th{background:var(--surface2);color:var(--text);font-size:12px;font-weight:800;white-space:normal;text-align:left;padding:11px 12px}
+.clinical-table td{border-top:1px solid var(--line);padding:11px 12px;vertical-align:top;color:var(--text)}
+.clinical-table td:first-child{font-weight:800;width:27%}
+.clinical-table tr:nth-child(even) td{background:color-mix(in srgb,var(--surface2) 43%,var(--surface))}
+.clinical-pearls{background:color-mix(in srgb,var(--accent) 12%,var(--surface));border-radius:15px;padding:18px}
+.clinical-pearls ul{margin:0;padding-left:19px;display:grid;gap:8px}
+.clinical-source{color:var(--muted);font-size:11px;margin:15px 0 0}
+.review-tab-list{overflow-x:auto;flex-wrap:nowrap;scrollbar-width:thin;padding-bottom:6px}
+.review-tab-list .chip{flex:none}
+@media(max-width:900px){.mode-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.mind-tree{grid-template-columns:1fr}}
+@media(max-width:500px){.mode-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.mode-card{min-height:152px}.clinical-table{min-width:420px}.clinical-section h3{font-size:17px}}

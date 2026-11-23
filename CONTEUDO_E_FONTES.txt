@@ -11,3 +11,13 @@ FONTES BASE:
 - GINA Summary Guide 2026, GOLD Pocket Guide 2027, Surviving Sepsis Campaign 2026, American Burn Association 2024
 
 As situações clínicas adicionais são fictícias e autorais, não reproduzem casos de pacientes. Os valores de fórmula clássica e recomendações atuais são distinguidos nos enunciados.
+
+ZOADA 6.0 — REVISÃO CLÍNICA E QUESTÕES INFINITAS
+- clinical_summaries.js contém oito fichas clínicas com classificação,
+  tratamento, escores, condutas imediatas e tabelas específicas por tema.
+- quality_overrides.js contém distratores mais plausíveis para 20 questões,
+  sem alterar o índice da alternativa correta nem o ID original.
+- A repetição no modo infinito somente ocorre após esgotar todas as questões
+  da rodada; itens recém-exibidos ficam afastados no ciclo seguinte.
+- Base externa adicional: GINA 2026 (https://ginasthma.org/), GOLD 2027
+  (https://goldcopd.org/), SSC 2026 (https://www.sccm.org/), ABA 2024.

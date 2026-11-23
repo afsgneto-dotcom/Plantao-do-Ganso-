@@ -1,37 +1,53 @@
-PLANTÃO DO GANSO — ZOADA 5.0
-Site estático para Netlify • novembro/2026
+PLANTÃO DO GANSO — ZOADA 6.0
+Site estático para GitHub Pages ou Netlify · novembro/2026
 
-PUBLICAÇÃO / ATUALIZAÇÃO
-1. Antes de atualizar, use Ajustes > Exportar meu progresso na versão atual.
-2. Em https://app.netlify.com, entre no mesmo projeto publicado anteriormente.
-3. Em Deploys, envie o arquivo Plantao_do_Ganso_Zoada_5_0_Netlify.zip.
-4. O index.html está NA RAIZ do ZIP, como o Netlify espera.
-5. Abra o mesmo endereço Netlify. Se aparecer a versão anterior, recarregue o Safari.
+ATUALIZAÇÃO NO GITHUB PAGES (MESMO LINK)
+1. Antes de atualizar, abra o site atual e use Ajustes > Exportar meu progresso.
+2. Extraia o ZIP. Envie os ARQUIVOS da raiz (sem uma pasta extra) ao seu
+   repositório, substituindo os antigos de mesmo nome.
+3. Os arquivos NOVOS necessários são:
+      clinical_summaries.js
+      quality_overrides.js
+   Eles DEVEM ficar na raiz, ao lado de index.html, app.js, app.css.
+4. Envie também index.html, app.js, app.css, sw.js atualizados. Os arquivos
+   questions.js, enhancements.js e content_v5.js continuam necessários;
+   não os apague. A pasta assets/ permanece necessária para o mascote.
+5. Confirme o commit. O GitHub Pages republicará o MESMO link, desde que
+   a configuração permaneça: Settings > Pages > Deploy from branch > main /root.
+6. No Safari, recarregue o site. Se a versão antiga estiver em cache,
+   feche a aba e abra novamente ou faça uma atualização forçada.
 
-PROGRESSO / BACKUP
-- As chaves de armazenamento e os IDs das questões antigas foram preservados.
-- A versão 5.0 reutiliza a migração automática v2/v3/v4 presente na versão 4.0.
-- O progresso é local ao navegador e endereço de domínio; não sincroniza entre aparelhos.
-- Faça backups periódicos e antes de trocar de navegador ou apagar dados do Safari.
+PUBLICAÇÃO PELO NETLIFY
+- Envie o ZIP diretamente para o MESMO projeto do Netlify para conservar o endereço.
+- index.html está na raiz do ZIP.
 
-CONTEÚDO
-- 1.003 questões no total: 564 anteriores + 439 novas.
-- 303 novas objetivas de memorização (variação de formas de cobrança).
-- 96 novos casos clínicos inéditos e mais complexos (12 por tema).
-- 40 novas atividades de associação, ordenação e preenchimento.
-- 240 flashcards por tópicos, integralmente reescritos com perguntas conceituais.
-- 8 assuntos: asma, DPOC, sepse, queimaduras, politraumatismo, TCE,
-  trauma torácico e trauma abdominal.
-- 50 questões por sessão, com seleção embaralhada dentro do tema em
-  'Intercalada' e em 'Aleatória'. Uma nova sessão evita começar pela
-  mesma questão que a sessão anterior equivalente.
-- Casos clínicos não se repetem na mesma sessão.
-- Mantidos: modos Decorar, Casos Clínicos e Prova, Zoada, progresso e revisões.
+O QUE MUDOU NA VERSÃO 6.0
+- A aba Mapas Mentais passou a conter apenas fluxos curtos e palavras-chave.
+- A aba Resumos Clínicos passou a conter quadro clínico, sinais de gravidade,
+  condutas de emergência, escores e tabelas de tratamentos/estadiamento.
+- Incluídas tabelas de tratamento GINA 2026 (etapas 1–5) e GOLD 2027
+  (graus espirométricos 1–4 e grupos A/B/E), além de qSOFA, Glasgow e
+  outros tópicos relevantes.
+- Novo Modo Questões Infinitas: mistura TODAS as questões do banco entre
+  os oito temas e formatos; sem limite de 50. Cada rodada é embaralhada.
+  Não repete antes de percorrer as 1003 questões disponíveis. A rodada
+  seguinte começa com um intervalo que evita repetição de itens recentes.
+  Para garantir que o app continue leve no iPhone em sessões longas,
+  apenas a navegação das últimas 240 questões permanece no painel;
+  acertos, erros e quantidade total respondida são acumulados.
+- Distratores aprimorados em 20 questões objetivas, mantendo gabaritos,
+  explicações e identificadores existentes.
 
-FONTES
-- Apostilas e resumos de Urgências e Emergências enviados anteriormente.
-- Cinco provas enviadas, usadas como inspiração de estilo e nível de raciocínio.
-- Diretrizes GINA 2026, GOLD 2027, SSC 2026, ABA e ATLS. Conferir protocolos
-  locais e recomendações atualizadas para aplicação assistencial.
+BANCO / DADOS
+- Mantidas 1003 questões (questões rápidas, casos clínicos e interativas)
+  e 240 flashcards.
+- O histórico salvo no mesmo domínio usa a mesma chave da versão 5.1.
+- Não há sincronização automática entre dispositivos ou domínios.
+- Use Exportar / Importar em Ajustes ao migrar de Netlify para GitHub Pages.
 
-Zoada 5.1: adicionado o quadro de crédito na tela inicial, abaixo da apresentação: Idealizado por Antonio Fernando de Souza Guerra Neto. Banco de questões e dados salvos mantidos.
+REFERÊNCIAS
+- Slides, provas e apostilas da disciplina enviados pelo usuário.
+- GINA 2026 (estratégia de asma), GOLD 2027 (DPOC), SSC 2026 (sepse),
+  American Burn Association 2024 (reposição em queimaduras), ATLS.
+- Conteúdo para revisão educacional; avaliação profissional e protocolos
+  locais prevalecem na assistência real.
