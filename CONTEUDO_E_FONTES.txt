@@ -1,23 +1,45 @@
-PLANTÃO DO GANSO — EDIÇÃO 5.0
+PLANTÃO DO GANSO — ZOADA 7.1 | CONTEÚDO E FONTES
 
-Novas questões: 439 (questões rápidas, casos avançados e interativas).
-Total no banco: 1003 (inclui as 16 questões adicionais do app.js).
-Flashcards: 240 perguntas reformuladas em estilo conceitual, com IDs preservados para não perder o histórico de espaçamento.
+DISTRIBUIÇÃO
+Urgência e Emergência: 8 temas, 1.023 questões e 240 flashcards.
+Tutoria: 10 temas, 1.088 questões originais e 109 flashcards originais.
+Total: 2.111 questões e 349 flashcards.
 
-FONTES BASE:
-- Apostila Urgências e Emergências, 75 p., elaborada a partir dos slides de aula
-- Apostila Urgências e Emergências — 7 Temas, 14 p.
-- Cinco provas antigas enviadas pelo usuário para o formato de questões e apresentação de casos
-- GINA Summary Guide 2026, GOLD Pocket Guide 2027, Surviving Sepsis Campaign 2026, American Burn Association 2024
+DOCUMENTOS DE ESTUDO ENVIADOS PELO USUÁRIO (NÃO EMBUTIDOS NESTE SITE)
+- Apostilas e provas de Urgência e Emergência utilizadas nas versões 5 e 6.
+- TUTORIA MT3 P8.pdf: resumo de 81 páginas de Tutoria.
+- P8 MT3-Prova tutoria pdf_251109_190306.pdf: prova digitalizada, 6 páginas.
+- Prova tutoria MT3 P8.pdf: prova digitalizada, 5 páginas.
+- Choque Hipovolêmico e Cardiogênico - Problema 2.pdf.
+- SEPSE E CHOQUE SÉPTICO - PROBLEMA 3.pdf.
+- IRA - Injúria Renal Aguda - Problema 4.pdf.
+- Emergências Hiperglicêmicas - Problema 1.pdf.
+- Hepatite fulminante / Insuficiência Hepática Fulminante.pdf.
+- XABCDE dos Queimados - UE.pdf.
+- Asma na emergência.pdf e DPOC na Emergência.pdf.
+- Urgência e Emergência - Guia de estudo MT3 P8.pdf.
+- Dicas da prova de Tutoria fornecidas diretamente na conversa.
 
-As situações clínicas adicionais são fictícias e autorais, não reproduzem casos de pacientes. Os valores de fórmula clássica e recomendações atuais são distinguidos nos enunciados.
+DIRETRIZES DE APOIO: DETALHES RELEVANTES
+- Surviving Sepsis Campaign (2026), sccm.org
+- GINA Strategy Report (2026), ginasthma.org
+- ADA/EASD/associações, consenso para crises hiperglicêmicas (2024), diabetesjournals.org
+- American Burn Association, Clinical Practice Guidelines on Burn Shock Resuscitation (2024), ameriburn.org
+- GOLD, relatório DPOC (2027), goldcopd.org
+- KDIGO: critérios tradicionais de LRA usados para estadiamento; material
+  divulgado em 2026 como rascunho não deve ser confundido com diretriz final.
+- Ministério da Saúde, protocolos de IST e uretrites; CDC STI Guidelines.
+- Critérios clássicos de King’s College para falência hepática aguda.
 
-ZOADA 6.0 — REVISÃO CLÍNICA E QUESTÕES INFINITAS
-- clinical_summaries.js contém oito fichas clínicas com classificação,
-  tratamento, escores, condutas imediatas e tabelas específicas por tema.
-- quality_overrides.js contém distratores mais plausíveis para 20 questões,
-  sem alterar o índice da alternativa correta nem o ID original.
-- A repetição no modo infinito somente ocorre após esgotar todas as questões
-  da rodada; itens recém-exibidos ficam afastados no ciclo seguinte.
-- Base externa adicional: GINA 2026 (https://ginasthma.org/), GOLD 2027
-  (https://goldcopd.org/), SSC 2026 (https://www.sccm.org/), ABA 2024.
+AUTORIA E LICENCIAMENTO
+- Os casos, questões e explicações adicionados em v7 são originais e
+  elaborados para fins educacionais, inspirados na complexidade das provas.
+- Os PDFs de terceiros não são redistribuídos nem incorporados ao pacote.
+- As recomendações médicas podem sofrer alterações, e a aplicação assistencial
+  exige julgamento clínico e obediência aos protocolos locais.
+
+ATUALIZAÇÃO 7.1
+- 979 questões adicionais de Tutoria, com itens calculáveis e comentados.
+- Modo Dicas exclusivo da disciplina Tutoria, conforme as orientações fornecidas para essa prova.
+- Referências externas para atualização: GINA 2026; SSC 2026; consenso CAD/EHH de 2024; ABA 2024; KDIGO vigente 2012 (atualização 2026 em minuta); SOFA clássico (SOFA-2 é diferente); PCDT IST brasileiro.
+- Os exemplos numéricos usam dados ficcionais para estudo e não devem ser usados como prontuário ou decisão clínica real.

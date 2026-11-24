@@ -197,3 +197,46 @@ body[data-view="quiz"] #app{padding-bottom:180px}
 .review-tab-list .chip{flex:none}
 @media(max-width:900px){.mode-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.mind-tree{grid-template-columns:1fr}}
 @media(max-width:500px){.mode-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.mode-card{min-height:152px}.clinical-table{min-width:420px}.clinical-section h3{font-size:17px}}
+
+/* Zoada 7.0 — disciplinas separadas e explicações completas */
+.course-select{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.course-choice{display:flex;gap:14px;text-align:left;align-items:center;border:2px solid var(--line);border-radius:19px;padding:18px;background:var(--surface);color:var(--text);min-height:92px;cursor:pointer;transition:border-color .15s,background .15s}
+.course-choice.active{border-color:var(--primary);background:var(--surface2);box-shadow:inset 0 0 0 1px var(--primary)}
+.course-choice .course-icon{font-size:29px;flex-shrink:0}
+.course-choice strong{font-size:16px;display:block;margin-bottom:6px}
+.course-choice small{font-size:12px;display:block;color:var(--muted);line-height:1.4}
+.zoada-full-reason{margin-top:20px;border:1px solid color-mix(in srgb,var(--green) 28%,var(--line));background:color-mix(in srgb,var(--greenbg) 25%,var(--surface));border-radius:18px;padding:20px;line-height:1.75;overflow-wrap:anywhere}
+.reason-head{display:flex;align-items:center;gap:13px;border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:14px}
+.reason-head img{width:70px;height:75px;object-fit:contain;flex:none}
+.reason-head span{font-size:11px;text-transform:uppercase;letter-spacing:.07em;font-weight:800;color:var(--primary)}
+.reason-head h3{font-size:17px;margin:3px 0;color:var(--text)}
+.reason-answer{padding:13px 15px;background:var(--greenbg);color:var(--text);border:1px solid color-mix(in srgb,var(--green) 25%,transparent);border-radius:12px;font-size:13px;line-height:1.55}
+.zoada-full-reason h4{font-size:14px;margin:18px 0 6px;color:var(--primary)}
+.zoada-full-reason p{font-size:13px;margin:0 0 12px;line-height:1.75;color:var(--text)}
+.reason-foot{border-top:1px solid var(--line);padding-top:12px;margin-top:14px;color:var(--muted);font-size:11px;line-height:1.6}
+.reason-foot a{color:var(--primary);font-weight:800}
+.session-buttons{display:flex;align-items:center;gap:8px;flex-shrink:0}
+.session-buttons .btn{min-height:39px;padding:7px 11px}
+.history-tools{margin:12px 0 19px;padding:12px;background:var(--surface2);border-radius:12px}
+.history-tools .hint{margin:9px 0 0}
+.mode-cards{grid-template-columns:repeat(5,minmax(0,1fr))}
+.mode-card{min-height:166px}
+.mode-card strong{font-size:15px}
+@media(max-width:950px){.mode-cards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){.course-select{grid-template-columns:1fr;gap:10px}.course-choice{min-height:78px;padding:13px}.mode-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.mode-card{min-height:142px}.mode-card strong{font-size:13px}.zoada-full-reason{padding:15px}.reason-head img{width:56px;height:65px}.reason-head h3{font-size:15px}.list-item{align-items:flex-start}.session-buttons{flex-direction:column}.session-buttons .btn{font-size:12px;min-width:88px}}
+
+/* Painel de roteiros de dicas da prova */
+.tips-block{padding:0}
+.tips-list{display:grid;gap:10px}
+.tip-item{border:1px solid var(--line);border-radius:15px;background:var(--surface);overflow:hidden}
+.tip-item[open]{border-color:color-mix(in srgb,var(--primary) 38%,var(--line))}
+.tip-item summary{display:flex;align-items:center;gap:12px;cursor:pointer;list-style:none;padding:15px;font-size:13px}
+.tip-item summary::-webkit-details-marker{display:none}
+.tip-item strong{flex:1;font-size:14px}
+.tip-number{display:grid;place-items:center;border-radius:10px;min-width:29px;height:29px;background:var(--surface2);color:var(--primary);font-weight:850}
+.tip-status{color:var(--muted);font-size:11px;font-weight:750;white-space:nowrap}
+.tip-body{padding:4px 18px 18px 57px;border-top:1px solid var(--line)}
+.tip-body ul{color:var(--text);font-size:12px;line-height:1.7;padding-left:18px}
+.tip-body li{margin:7px 0}
+.tip-subject{margin-top:14px;font-size:11px;font-weight:850;text-transform:uppercase;color:var(--primary);letter-spacing:.05em}
+@media(max-width:600px){.tip-body{padding:2px 12px 16px 14px}.tip-item summary{padding:13px 10px;gap:7px}.tip-item strong{font-size:12px}.tip-status{font-size:9px}.tip-body .btn{width:100%;font-size:12px}}

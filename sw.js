@@ -1,5 +1,5 @@
-const CACHE='plantao-do-ganso-2026-11-23-v9';
-const FILES=['./','./index.html','./app.css','./app.js','./questions.js','./enhancements.js','./content_v5.js','./quality_overrides.js','./clinical_summaries.js','./manifest.webmanifest','./assets/ganso-professor.webp','./assets/zoada-boas-vindas.webp','./assets/zoada-comemorando.webp','./assets/zoada-pensando.webp','./assets/zoada-explicando.webp','./assets/icon-192.png','./assets/icon-512.png'];
+const CACHE='plantao-do-ganso-2026-11-23-v71';
+const FILES=['./','./index.html','./app.css','./app.js','./questions.js','./enhancements.js','./content_v5.js','./quality_overrides.js','./clinical_summaries.js','./tutoria_v7.js','./tutoria_summaries.js','./tips_v7.js','./manifest.webmanifest','./assets/ganso-professor.webp','./assets/zoada-boas-vindas.webp','./assets/zoada-comemorando.webp','./assets/zoada-pensando.webp','./assets/zoada-explicando.webp','./assets/icon-192.png','./assets/icon-512.png'];
 self.addEventListener('install', e=>{e.waitUntil(caches.open(CACHE).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting()));});
 self.addEventListener('activate', e=>{e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));});
 self.addEventListener('fetch',e=>{if(e.request.method!=='GET'||new URL(e.request.url).origin!==self.location.origin)return;e.respondWith(fetch(e.request).then(r=>{if(r.ok){const cc=r.clone();caches.open(CACHE).then(c=>c.put(e.request,cc));}return r}).catch(()=>caches.match(e.request)));});

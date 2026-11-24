@@ -1,53 +1,72 @@
-PLANTÃO DO GANSO — ZOADA 6.0
-Site estático para GitHub Pages ou Netlify · novembro/2026
+PLANTÃO DO GANSO — ZOADA 7.1
+Atualização de novembro/2026 | Site estático para GitHub Pages e outros serviços
 
-ATUALIZAÇÃO NO GITHUB PAGES (MESMO LINK)
-1. Antes de atualizar, abra o site atual e use Ajustes > Exportar meu progresso.
-2. Extraia o ZIP. Envie os ARQUIVOS da raiz (sem uma pasta extra) ao seu
-   repositório, substituindo os antigos de mesmo nome.
-3. Os arquivos NOVOS necessários são:
-      clinical_summaries.js
-      quality_overrides.js
-   Eles DEVEM ficar na raiz, ao lado de index.html, app.js, app.css.
-4. Envie também index.html, app.js, app.css, sw.js atualizados. Os arquivos
-   questions.js, enhancements.js e content_v5.js continuam necessários;
-   não os apague. A pasta assets/ permanece necessária para o mascote.
-5. Confirme o commit. O GitHub Pages republicará o MESMO link, desde que
-   a configuração permaneça: Settings > Pages > Deploy from branch > main /root.
-6. No Safari, recarregue o site. Se a versão antiga estiver em cache,
-   feche a aba e abra novamente ou faça uma atualização forçada.
+NOVIDADES
+- Escolha da disciplina: URGÊNCIA E EMERGÊNCIA ou TUTORIA.
+- Bancos, temas e sessões identificados por disciplina, inclusive quando o tema coincide.
+- Modo APRENDIZADO BASEADO NAS DICAS DA PROVA, com roteiros separados por disciplina.
+- Banco completo: 1.023 questões de Urgência e Emergência (1.003 anteriores + 20 novas)
+  e 1.088 questões originais de Tutoria (2.111 questões, no total).
+- 349 flashcards: 240 de Urgência e Emergência + 109 novos de Tutoria.
+- Questões clínicas e cálculos de choque, sepse, KDIGO, CAD/EHH, Winter, anion gap,
+  King's College, queimaduras, gasometria, uretrites, asma e ferramentas diagnósticas.
+- As explicações do Zoada agora apresentam raciocínio clínico, contexto,
+  armadilhas e referência quando disponível.
+- Excluir uma sessão ou limpar somente o histórico de sessões da disciplina.
+  Isso preserva estatísticas, favoritos, revisões e flashcards.
+- Conteúdo anterior de Urgência e Emergência preservado.
 
-PUBLICAÇÃO PELO NETLIFY
-- Envie o ZIP diretamente para o MESMO projeto do Netlify para conservar o endereço.
-- index.html está na raiz do ZIP.
+COMO ATUALIZAR O MESMO SITE DO GITHUB PAGES (SEM ALTERAR O LINK)
+1. No site ATUAL, entre em Ajustes e EXPORTAR seu progresso como backup.
+2. No iPhone, baixe e descompacte o arquivo ZIP no aplicativo Arquivos.
+3. Abra https://github.com/afsgneto-dotcom/Plantao-do-Ganso-/upload/main
+   no Safari, conectado à conta proprietária do repositório.
+4. Escolha os ARQUIVOS DA RAIZ da pasta descompactada e faça o upload:
+   index.html, app.css, app.js, sw.js, manifest.webmanifest, os três novos
+   arquivos tutoria_v7.js, tutoria_summaries.js, tips_v7.js e os demais
+   arquivos .js e .txt presentes na pasta.
+5. MUITO IMPORTANTE: os arquivos devem ficar AO LADO de index.html, e não
+   dentro de assets/ nem dentro de uma pasta chamada Zoada 7.1.
+6. Não envie somente o .ZIP ao GitHub: os arquivos precisam estar descompactados.
+7. A pasta assets/ contém as mesmas imagens da versão 6; se as imagens já
+   funcionam, não é necessário reenviá-las. Se reenviar, os arquivos devem
+   ficar diretamente em assets/, sem criar assets/assets/.
+8. Confirme a substituição de arquivos, selecione “Commit directly to main”
+   e confirme “Commit changes”.
+9. O GitHub Pages deve continuar em Settings > Pages > Deploy from branch,
+   branch main e pasta /(root). A publicação manterá o MESMO endereço:
+   https://afsgneto-dotcom.github.io/Plantao-do-Ganso-/
+10. Abra o site; se mostrar uma versão antiga por cache, recarregue ou feche
+    e reabra a aba. Não desinstale o atalho antigo sem exportar o progresso.
 
-O QUE MUDOU NA VERSÃO 6.0
-- A aba Mapas Mentais passou a conter apenas fluxos curtos e palavras-chave.
-- A aba Resumos Clínicos passou a conter quadro clínico, sinais de gravidade,
-  condutas de emergência, escores e tabelas de tratamentos/estadiamento.
-- Incluídas tabelas de tratamento GINA 2026 (etapas 1–5) e GOLD 2027
-  (graus espirométricos 1–4 e grupos A/B/E), além de qSOFA, Glasgow e
-  outros tópicos relevantes.
-- Novo Modo Questões Infinitas: mistura TODAS as questões do banco entre
-  os oito temas e formatos; sem limite de 50. Cada rodada é embaralhada.
-  Não repete antes de percorrer as 1003 questões disponíveis. A rodada
-  seguinte começa com um intervalo que evita repetição de itens recentes.
-  Para garantir que o app continue leve no iPhone em sessões longas,
-  apenas a navegação das últimas 240 questões permanece no painel;
-  acertos, erros e quantidade total respondida são acumulados.
-- Distratores aprimorados em 20 questões objetivas, mantendo gabaritos,
-  explicações e identificadores existentes.
+COMO IDENTIFICAR A VERSÃO NOVA
+- Rodapé mostra “Zoada 7.1”.
+- Página inicial mostra dois botões de disciplina.
+- Há um quinto modo: “Aprendizado baseado nas dicas da prova”.
+- Tutoria contém 10 áreas; Urgência e Emergência conserva oito.
 
-BANCO / DADOS
-- Mantidas 1003 questões (questões rápidas, casos clínicos e interativas)
-  e 240 flashcards.
-- O histórico salvo no mesmo domínio usa a mesma chave da versão 5.1.
-- Não há sincronização automática entre dispositivos ou domínios.
-- Use Exportar / Importar em Ajustes ao migrar de Netlify para GitHub Pages.
+PROGRESSO E PRIVACIDADE
+- O app mantém o mesmo identificador de armazenamento local da versão anterior.
+- Atualizar no mesmo domínio e mesmo navegador tende a preservar o progresso.
+- O backup é recomendado para prevenir perda de dados.
+- Não existe login ou sincronização entre iPhone e computador.
+- Excluir uma sessão tira a sessão do histórico; não redefine estatísticas.
+- Os checklists de dicas são salvos localmente por disciplina.
 
-REFERÊNCIAS
-- Slides, provas e apostilas da disciplina enviados pelo usuário.
-- GINA 2026 (estratégia de asma), GOLD 2027 (DPOC), SSC 2026 (sepse),
-  American Burn Association 2024 (reposição em queimaduras), ATLS.
-- Conteúdo para revisão educacional; avaliação profissional e protocolos
-  locais prevalecem na assistência real.
+FONTES E LIMITES
+- Questões, explicações e casos novos são autorais. Não foram embutidas
+  cópias dos PDFs de slides e provas enviados para uso privado.
+- O conteúdo foi criado para estudo; não substitui protocolos institucionais.
+- Alguns critérios variam entre apostila e diretriz. Preste atenção ao
+  enunciado: p.ex. fórmula de Parkland clássica versus ABA 2024 e critérios
+  atualizados de CAD/EHH. Os materiais originais merecem verificação.
+- Revisar periodicamente as diretrizes: SSC 2026, GINA 2026, GOLD 2027,
+  ADA/EASD 2024, ABA 2024, KDIGO e protocolos do Ministério da Saúde.
+
+ATUALIZAÇÃO 7.1 — 1.088 QUESTÕES DE TUTORIA
+- Dicas da prova exibidas SOMENTE no modo Tutoria; não aparecem em Urgência e Emergência.
+- Tutoria: 1.088 questões (109 anteriores + 979 adicionadas), incluindo SOFA clássico, CAD/EHH, choque, queimados, KDIGO, Glasgow e Winter.
+- Urgência e Emergência: 1.023 questões (banco anterior preservado).
+- TOTAL: 2.111 questões em duas disciplinas independentes.
+- Atualize também tutoria_v7.js, tips_v7.js, app.js e index.html, além dos arquivos do pacote.
+- Ao trocar de UE para Tutoria ou vice-versa, o progresso local e os históricos anteriores são preservados.
